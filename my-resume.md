@@ -18,22 +18,13 @@ Contacts:
 
 ## Experience
 
-- **Ruby on Rails Developer**, Feb 2011–Aug 2012
+- **JavaScript Developer**, Apr 2014–Present
 
-    Taking part in developing of a language learning service [Langaroo](http://langaroo.com).
-
-    + Responsibilities: UI and backend development, writing automated tests, manual testing
-    + Tools & technologies used: Ruby, Ruby on Rails, PostgreSQL, ERB, SASS, Compass, HTML, CSS, JavaScript, jQuery, Git
-
-- **Java Developer**, Nov 2011–Sep 2012, Mar 2014–Apr 2014
-
-    Developing client-server application providing remote management and configuration of servers.
-
-    Also taking part in a developing of an Event Service for VMWare vCenter.
+    Developing a client application for monitoring remote servers including separate versions for desktop and mobile browsers.
 
     + Company: SaM Solutions Gmbh, Minsk, Belarus
-    + Responsibilities: Planning, DB design, developing, testing, reporting
-    + Tools & technologies used: Java SE, Java RMI, Swing, JAXB, Windows PowerShell, Hibernate, Spring, Apache, H2 database, JUnit, Maven, Git, SVN
+    + Responsibilities: Planning, UI development, manual testing, taking part in meetings, UI design, making mockups, reporting
+    + Tools & technologies used: JavaScript, Sencha Ext JS, Sencha Touch, SASS, SCCI protocol, Sencha Architect
 
 - **Ruby Developer**, Oct 2012–Feb 2014
 
@@ -45,13 +36,22 @@ Contacts:
     + Responsibilities: Planning, UI and backend development, writing automated tests, manual testing, taking part in meetings, architecture and UI design, making mockups, collaborating with translators, reporting
     + Tools & technologies used: Debian, Ruby, Sinatra, Rspec, Haml, HTML, CSS, JavaScript, jQuery, Dropbox SDK, Jasmine, Git, Jenkins, Transifex, Jira
 
-- **JavaScript Developer**, Apr 2014–Present
+- **Java Developer**, Nov 2011–Sep 2012, Mar 2014–Apr 2014
 
-    Developing a client application for monitoring remote servers including separate versions for desktop and mobile browsers.
+    Developing client-server application providing remote management and configuration of servers.
+
+    Also taking part in a developing of an Event Service for VMWare vCenter.
 
     + Company: SaM Solutions Gmbh, Minsk, Belarus
-    + Responsibilities: Planning, UI development, manual testing, taking part in meetings, UI design, making mockups, reporting
-    + Tools & technologies used: JavaScript, Sencha Ext JS, Sencha Touch, SASS, SCCI protocol, Sencha Architect
+    + Responsibilities: Planning, DB design, developing, testing, reporting
+    + Tools & technologies used: Java SE, Java RMI, Swing, JAXB, Windows PowerShell, Hibernate, Spring, Apache, H2 database, JUnit, Maven, Git, SVN
+
+- **Ruby on Rails Developer**, Feb 2011–Aug 2012
+
+    Taking part in developing of a language learning service [Langaroo](http://langaroo.com).
+
+    + Responsibilities: UI and backend development, writing automated tests, manual testing
+    + Tools & technologies used: Ruby, Ruby on Rails, PostgreSQL, ERB, SASS, Compass, HTML, CSS, JavaScript, jQuery, Git
 
 
 ## Education

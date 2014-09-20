@@ -2,7 +2,7 @@ Highly motivated person with 4 years of experience in web, backend and frontend 
 
 ### Contacts:
 
--   Tel: [+375292181503](tel:+375292181503)
+-   Tel: [+375 29 2181503](tel:+375292181503)
 
 -   Email: <phil.tsarik@gmail.com>
 

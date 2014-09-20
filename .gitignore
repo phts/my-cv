@@ -1,0 +1,4 @@
+# Ignore "pdflatex" tmp files
+*.aux
+*.log
+*.out

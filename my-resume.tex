@@ -1,0 +1,124 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[cm]{fullpage}
+
+\usepackage{hyperref}
+\hypersetup{
+    pdftitle={My Resume},
+    pdfauthor={Phil Tsarik},
+    pdfcreator={Phil Tsarik},
+    colorlinks=true,
+    urlcolor=blue
+}
+
+\newcommand{\position}[1]{
+    % bold
+    \textbf{#1}}
+\newcommand{\itemlabel}[1]{
+    % italic + ":"
+    \textit{#1:}}
+\newcommand{\lastmodified}{
+    \tiny{\itemlabel{Last Modified} \today}}
+
+% Write current page number and Last Modified date in the footer
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt} % remove header line
+\cfoot{\thepage}
+\rfoot{\lastmodified}
+
+\title{Phil Tsarik}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+Highly motivated person with 4 years of experience in web, backend and frontend development and always ready to learn something new and interesting.
+
+\subsubsection*{Contacts:}
+\begin{itemize}
+    \item Tel: \href{tel:+375292181503}{+375292181503}
+    \item Email: \href{mailto:phil.tsarik@gmail.com}{phil.tsarik@gmail.com}
+    \item Skype: \href{callto:phil.tsarik}{phil.tsarik}
+    \item My legal name: Pilip Tsaryk
+\end{itemize}
+
+
+\section*{Skills}
+
+    \begin{itemize}
+        \item Ruby, Ruby on Rails, Python, Bash, Java, Android, SQL, PostgreSQL, UML
+        \item HTML/CSS, HTML5, CSS3, Javascript, Ajax, Sass, ExtJS, jQuery
+    \end{itemize}
+
+
+\section*{Experience}
+
+    \begin{itemize}
+
+        \item \position{JavaScript Developer}, Apr 2014--Present
+
+            Developing a client application for monitoring remote servers including separate versions for desktop and mobile browsers.
+
+            \begin{itemize}
+                \item \itemlabel{Company} SaM Solutions Gmbh, Minsk, Belarus
+                \item \itemlabel{Responsibilities} Planning, UI development, manual testing, taking part in meetings, UI design, making mockups, reporting
+                \item \itemlabel{Tools \& technologies used} JavaScript, Sencha Ext JS, Sencha Touch, SASS, SCCI protocol, Sencha Architect
+            \end{itemize}
+
+        \item \position{Ruby Developer}, Oct 2012--Feb 2014
+
+            Developing a firmware with Web GUI for network-attached storages based on Debian GNU/Linux.
+
+            Developed and released a complete product with periodical updates with fixes and improvements.
+
+            \begin{itemize}
+                \item \itemlabel{Company} SaM Solutions Gmbh, Minsk, Belarus
+                \item \itemlabel{Responsibilities} Planning, UI and backend development, writing automated tests, manual testing, taking part in meetings, architecture and UI design, making mockups, collaborating with translators, reporting
+                \item \itemlabel{Tools \& technologies used} Debian, Ruby, Sinatra, Rspec, Haml, HTML, CSS, JavaScript, jQuery, Dropbox SDK, Jasmine, Git, Jenkins, Transifex, Jira
+            \end{itemize}
+
+
+        \item \position{Java Developer}, Nov 2011--Sep 2012, Mar 2014--Apr 2014
+
+            Developing client-server application providing remote management and configuration of servers.
+
+            Also taking part in a developing of an Event Service for VMWare vCenter.
+
+            \begin{itemize}
+                \item \itemlabel{Company} SaM Solutions Gmbh, Minsk, Belarus
+                \item \itemlabel{Responsibilities} Planning, DB design, developing, testing, reporting
+                \item \itemlabel{Tools \& technologies used} Java SE, Java RMI, Swing, JAXB, Windows PowerShell, Hibernate, Spring, Apache, H2 database, JUnit, Maven, Git, SVN
+            \end{itemize}
+
+        \item \position{Ruby on Rails Developer}, Feb 2011--Aug 2012
+
+            Taking part in developing of a language learning service \href{http://langaroo.com}{Langaroo}.
+
+            \begin{itemize}
+                \item \itemlabel{Responsibilities} UI and backend development, writing automated tests, manual testing
+                \item \itemlabel{Tools \& technologies used} Ruby, Ruby on Rails, PostgreSQL, ERB, SASS, Compass, HTML, CSS, JavaScript, jQuery, Git
+            \end{itemize}
+
+    \end{itemize}
+
+
+\section*{Education}
+
+    \begin{itemize}
+
+        \item \position{Polotsk State University}, 2006--2011
+
+            Diploma in Software Engineering.
+
+    \end{itemize}
+
+\section*{Appendix}
+
+    \begin{itemize}
+        \item \href{https://www.linkedin.com/pub/phil-tsarik/98/a96/683}{LinkedIn}
+        \item \href{https://github.com/phts}{GitHub}
+    \end{itemize}
+
+\end{document}

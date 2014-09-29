@@ -1,4 +1,4 @@
-Highly motivated person with 4 years of experience in web, backend and frontend development and always ready to learn something new and interesting.
+Highly motivated person with 4 years of experience in web, backend and frontend development and is always ready to learn something new and interesting.
 
 ### Contacts:
 

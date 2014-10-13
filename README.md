@@ -1,7 +1,7 @@
 # My Resume
 
 Written in LaTeX.
-Available in [PDF](https://github.com/phts/my-resume/raw/master/pdf/My%20Resume.pdf) and [Markdown](https://github.com/phts/my-resume/blob/master/md/my-resume.md).
+Available in [PDF](https://github.com/phts/my-resume/raw/master/pdf/Phil%20Tsarik%20-%20Resume.pdf) and [Markdown](https://github.com/phts/my-resume/blob/master/md/my-resume.md).
 
 Markdown is compiled using [pandoc](https://github.com/jgm/pandoc):
 

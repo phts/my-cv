@@ -14,7 +14,7 @@ command -v pdflatex >/dev/null 2>&1
 if [ $? -eq 0 ]; then
     pdflatex my-resume.tex
     mkdir -p ./pdf
-    mv -f my-resume.pdf pdf/My\ Resume.pdf
+    mv -f my-resume.pdf pdf/Phil\ Tsarik\ -\ Resume.pdf
 else
     echo "'pdflatex' is not installed"
 fi

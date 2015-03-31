@@ -72,7 +72,7 @@ Education
 Appendix
 ========
 
--   <https://www.linkedin.com/pub/phil-tsarik/98/a96/683>
+-   <https://www.linkedin.com/in/tsarik>
 
 -   <https://github.com/phts>
 

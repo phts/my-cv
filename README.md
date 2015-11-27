@@ -7,7 +7,7 @@ Markdown is compiled using [pandoc](https://github.com/jgm/pandoc):
 
     pandoc -o md/my-resume.md --to=markdown_github my-resume.tex
 
-PDF compiler requires LaTeX engine to be installed. I used [MiKTeX](http://miktex.org/download):
+PDF compiler requires LaTeX engine to be installed. I used [MiKTeX](http://miktex.org/download) (on Windows) and [texlive](https://www.tug.org/texlive/) (on Debian):
 
     pdflatex my-resume.tex
 

@@ -15,7 +15,7 @@ Skills
 
 -   Ruby, Ruby on Rails, Python, Bash, Java, Android, SQL, PostgreSQL, UML
 
--   HTML/CSS, HTML5, CSS3, Javascript, Ajax, Sass, ExtJS, jQuery
+-   HTML/CSS, HTML5, CSS3, JavaScript, Ajax, Sass, ExtJS, jQuery
 
 Experience
 ==========

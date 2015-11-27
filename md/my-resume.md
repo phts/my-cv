@@ -20,7 +20,17 @@ Skills
 Experience
 ==========
 
--   <span> **JavaScript Developer**</span>, Apr 2014–Present
+-   <span> **JavaScript Developer**</span>, Nov 2015–Present
+
+    Developing a web-application for managing some specific hierarchy data which allows adding, removing, sorting, merging, exporting to Excel files, etc.
+
+    -   <span> *Company:*</span> EPAM Systems, Kraków Area, Poland
+
+    -   <span> *Responsibilities:*</span> UI development, writing automated tests, manual testing, taking part in meetings, architecture and UI design, making mockups, reporting
+
+    -   <span> *Tools & technologies used:*</span> JavaScript, ECMAScript 6, AngularJS, Underscore, Gulp, Bower, Karma, Jasmine, Protractor, Git, Jira
+
+-   <span> **JavaScript Developer**</span>, Apr 2014–Oct 2015
 
     Developing a client application for monitoring remote servers including separate versions for desktop and mobile browsers.
 

@@ -4,6 +4,8 @@ Highly motivated person with 4+ years experience in a front end and back end dev
 
 -   Tel: [+375 29 2181503](tel:+375292181503)
 
+-   Tel: [+48 534 898 187](tel:+48534898187)
+
 -   Email: <phil.tsarik@gmail.com>
 
 -   Skype: [phil.tsarik](callto:phil.tsarik)

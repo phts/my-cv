@@ -1,4 +1,4 @@
-Highly motivated person with 4+ years experience in a front end and back end development. Broad experience in working with web front end tools and frameworks (e.g jQuery, AngularJS) as well as with pure JavaScript and HTML/CSS in modern and old browsers and different platforms. Experienced in developing of full stack web-applications using Ruby and Java.
+Highly motivated person with <span> <span>4+</span></span> years experience in a front end and back end development. Broad experience in working with web front end tools and frameworks (e.g jQuery, AngularJS) as well as with pure JavaScript and HTML/CSS in modern and old browsers and different platforms. Experienced in developing of full stack web-applications using Ruby and Java.
 
 ### Contacts:
 

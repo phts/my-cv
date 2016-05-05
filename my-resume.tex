@@ -1,5 +1,6 @@
 \documentclass[a4paper, 12pt]{article}
 \usepackage[cm]{fullpage}
+\usepackage[nomessages]{fp}
 
 \usepackage{hyperref}
 \hypersetup{
@@ -18,6 +19,10 @@
     \textit{#1:}}
 \newcommand{\lastmodified}{
     \tiny{\itemlabel{Last Modified} \today}}
+\newcommand{\defvalue}[2]{\ifx#1\empty#2\else#1\fi}
+\newcommand{\yearsexp}{%
+    \FPeval{\result}{clip(\the\year - 2011)}%
+    \defvalue{\result}{4+}}
 
 % Write current page number and Last Modified date in the footer
 \usepackage{fancyhdr}
@@ -34,7 +39,7 @@
 \begin{document}
 \maketitle
 
-Highly motivated person with 4+ years experience in a front end and back end development.
+Highly motivated person with \yearsexp{} years experience in a front end and back end development.
 Broad experience in working with web front end tools and frameworks (e.g jQuery, AngularJS) as well as with pure JavaScript and HTML/CSS in modern and old browsers and different platforms.
 Experienced in developing of full stack web-applications using Ruby and Java.
 

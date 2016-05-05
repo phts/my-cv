@@ -42,6 +42,16 @@ Experience
 
     -   <span> *Tools & technologies used:*</span> JavaScript, Sencha Ext JS, Sencha Touch, SASS, SCCI protocol, Sencha Architect
 
+-   <span> **Java Developer**</span>, Mar 2014–Apr 2014
+
+    Developing an Event Service for VMWare vCenter.
+
+    -   <span> *Company:*</span> SaM Solutions Gmbh, Minsk, Belarus
+
+    -   <span> *Responsibilities:*</span> Planning, DB design, developing, testing, reporting
+
+    -   <span> *Tools & technologies used:*</span> Java EE, Hibernate, Spring, Apache, H2 database, JUnit, Maven, Git
+
 -   <span> **Ruby Developer**</span>, Oct 2012–Feb 2014
 
     Developing a firmware with Web GUI for network-attached storages based on Debian GNU/Linux.
@@ -54,17 +64,15 @@ Experience
 
     -   <span> *Tools & technologies used:*</span> Debian, Ruby, Sinatra, Rspec, Haml, HTML, CSS, JavaScript, jQuery, Dropbox SDK, Jasmine, Git, Jenkins, Transifex, Jira
 
--   <span> **Java Developer**</span>, Nov 2011–Sep 2012, Mar 2014–Apr 2014
+-   <span> **Java Developer**</span>, Nov 2011–Sep 2012
 
-    Developing client-server application providing remote management and configuration of servers.
-
-    Also taking part in a developing of an Event Service for VMWare vCenter.
+    Developing client-server application which provides remote management and configuration of servers.
 
     -   <span> *Company:*</span> SaM Solutions Gmbh, Minsk, Belarus
 
-    -   <span> *Responsibilities:*</span> Planning, DB design, developing, testing, reporting
+    -   <span> *Responsibilities:*</span> Planning, developing, testing, reporting
 
-    -   <span> *Tools & technologies used:*</span> Java SE, Java RMI, Swing, JAXB, Windows PowerShell, Hibernate, Spring, Apache, H2 database, JUnit, Maven, Git, SVN
+    -   <span> *Tools & technologies used:*</span> Java SE, Java RMI, Swing, JAXB, Windows PowerShell, SVN
 
 -   <span> **Ruby on Rails Developer**</span>, Feb 2011–Aug 2012
 

@@ -2,6 +2,7 @@
 \usepackage[cm]{fullpage}
 \usepackage[nomessages]{fp}
 \usepackage[utf8]{inputenc}
+\usepackage{datenumber}
 
 \usepackage{hyperref}
 \hypersetup{
@@ -24,6 +25,18 @@
 \newcommand{\yearsexp}{%
     \FPeval{\result}{clip(\the\year - 2011)}%
     \defvalue{\result}{4+}}
+
+\newcounter{dateone}%
+\newcounter{datetwo}%
+\newcommand{\datediff}[4]{%
+    \setmydatenumber{dateone}{#1}{#2}{01}%
+    \setmydatenumber{datetwo}{#3}{#4}{05}%
+    \addtocounter{datetwo}{-\thedateone}%
+    \the\numexpr(-\thedatetwo - (-\thedatetwo/365)*365)/30\relax\space months%
+}
+\newcommand{\difftoday}[2]{%
+    \datediff{#1}{#2}{\the\year}{\the\month}%
+}
 
 % Write current page number and Last Modified date in the footer
 \usepackage{fancyhdr}
@@ -66,7 +79,7 @@ Experienced in developing of full stack web-applications using Ruby and Java.
 
     \begin{itemize}
 
-        \item \position{JavaScript Developer}, Nov 2015--Present
+        \item \position{JavaScript Developer}, Nov 2015--Present (\difftoday{2015}{11})
 
             Developing a web-application for managing some specific hierarchy data which allows adding, removing, sorting, merging, exporting to Excel files, etc.
 
@@ -76,7 +89,7 @@ Experienced in developing of full stack web-applications using Ruby and Java.
                 \item \itemlabel{Tools \& technologies used} JavaScript, ECMAScript 6, AngularJS, Underscore, Gulp, Bower, Karma, Jasmine, Protractor, Git, Jira
             \end{itemize}
 
-        \item \position{JavaScript Developer}, Apr 2014--Oct 2015
+        \item \position{JavaScript Developer}, Apr 2014--Oct 2015 (\datediff{2014}{04}{2015}{10})
 
             Developing a client application for monitoring remote servers including separate versions for desktop and mobile browsers.
 

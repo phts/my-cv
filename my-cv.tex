@@ -2,6 +2,7 @@
 \usepackage[cm]{fullpage}
 \usepackage[nomessages]{fp}
 \usepackage[utf8]{inputenc}
+\usepackage{datenumber}
 
 \usepackage{hyperref}
 \hypersetup{
@@ -24,6 +25,43 @@
 \newcommand{\yearsexp}{%
     \FPeval{\result}{clip(\the\year - 2011)}%
     \defvalue{\result}{5+}}
+
+% Switch implementation
+\usepackage{xifthen}
+\newcommand{\ifequals}[3]{\ifthenelse{\equal{#1}{#2}}{#3}{}}
+\newcommand{\case}[2]{#1 #2} % Dummy, so \renewcommand has something to overwrite...
+\newenvironment{switch}[1]{\renewcommand{\case}{\ifequals{#1}}}{}
+
+\newcommand{\monthname}[1]{%
+    \begin{switch}{#1}%
+        \case{01}{Jan}%
+        \case{02}{Feb}%
+        \case{03}{Mar}%
+        \case{04}{Apr}%
+        \case{05}{May}%
+        \case{06}{Jun}%
+        \case{07}{Jul}%
+        \case{08}{Aug}%
+        \case{09}{Sep}%
+        \case{10}{Oct}%
+        \case{11}{Nov}%
+        \case{12}{Dec}%
+    \end{switch}%
+}
+\newcounter{dateone}%
+\newcounter{datetwo}%
+\newcommand{\datediff}[4]{%
+    \setmydatenumber{dateone}{#1}{#2}{01}%
+    \setmydatenumber{datetwo}{#3}{#4}{01}%
+    \addtocounter{datetwo}{-\thedateone}%
+    \the\numexpr(\thedatetwo/365 + \thedatetwo/30)\relax\space months%
+}
+\newcommand{\difftoday}[2]{%
+    \monthname{#2} #1--Present (\datediff{#1}{#2}{\the\year}{\the\month})%
+}
+\newcommand{\diffdates}[4]{%
+    \monthname{#2} #1--\monthname{#4} #3 (\datediff{#1}{#2}{#3}{#4})%
+}
 
 % Write current page number and Last Modified date in the footer
 \usepackage{fancyhdr}
@@ -67,7 +105,7 @@ Experienced in developing of full stack web-applications using Ruby and Java.
 
     \begin{itemize}
 
-        \item \position{Front End Developer}, Jul 2016--Present
+        \item \position{Front End Developer}, \difftoday{2016}{07}
 
             Taking part in a friend's startup as a front end developer. Responsible for a whole front end part.
 
@@ -75,7 +113,7 @@ Experienced in developing of full stack web-applications using Ruby and Java.
                 \item \itemlabel{Tools \& technologies used} Angular 2.x, Material design, TypeScript, JavaScript, NodeJS, Webpack, Karma, Jasmine, Protractor, Git, Bitbucket
             \end{itemize}
 
-        \item \position{JavaScript Developer}, Nov 2015--Present
+        \item \position{JavaScript Developer}, \difftoday{2015}{11}
 
             Developing a web-application for managing some specific hierarchy data which allows adding, removing, sorting, merging, exporting to Excel files, etc.
 
@@ -85,7 +123,7 @@ Experienced in developing of full stack web-applications using Ruby and Java.
                 \item \itemlabel{Tools \& technologies used} JavaScript, ES6, Angular 1.x, Bootstrap, Underscore, Webpack, Gulp, Bower, Karma, Jasmine, Protractor, Git, Jira
             \end{itemize}
 
-        \item \position{JavaScript Developer}, Apr 2014--Oct 2015
+        \item \position{JavaScript Developer}, \diffdates{2014}{04}{2015}{10}
 
             Developing a client application for monitoring remote servers including separate versions for desktop and mobile browsers.
 
@@ -95,7 +133,7 @@ Experienced in developing of full stack web-applications using Ruby and Java.
                 \item \itemlabel{Tools \& technologies used} JavaScript, Sencha Ext JS, Sencha Touch, SASS, SCCI protocol, Sencha Architect
             \end{itemize}
 
-        \item \position{Java Developer}, Mar 2014--Apr 2014
+        \item \position{Java Developer}, \diffdates{2014}{03}{2014}{04}
 
             Developing an Event Service for VMWare vCenter.
 
@@ -105,7 +143,7 @@ Experienced in developing of full stack web-applications using Ruby and Java.
                 \item \itemlabel{Tools \& technologies used} Java EE, Hibernate, Spring, Apache, H2 database, JUnit, Maven, Git
             \end{itemize}
 
-        \item \position{Full Stack Developer}, Oct 2012--Feb 2014
+        \item \position{Full Stack Developer}, \diffdates{2012}{10}{2014}{02}
 
             Developing a firmware with Web GUI for network-attached storages based on Debian GNU/Linux.
 
@@ -117,7 +155,7 @@ Experienced in developing of full stack web-applications using Ruby and Java.
                 \item \itemlabel{Tools \& technologies used} Debian, Ruby, Sinatra, Rspec, Haml, HTML, CSS, JavaScript, jQuery, Dropbox SDK, Jasmine, Git, Jenkins, Transifex, Jira
             \end{itemize}
 
-        \item \position{Java Developer}, Nov 2011--Sep 2012
+        \item \position{Java Developer}, \diffdates{2011}{11}{2012}{09}
 
             Developing client-server application which provides remote management and configuration of servers.
 
@@ -127,7 +165,7 @@ Experienced in developing of full stack web-applications using Ruby and Java.
                 \item \itemlabel{Tools \& technologies used} Java SE, Java RMI, Swing, JAXB, Windows PowerShell, SVN
             \end{itemize}
 
-        \item \position{Full Stack Developer}, Feb 2011--Aug 2012
+        \item \position{Full Stack Developer}, \diffdates{2011}{02}{2012}{08}
 
             Taking part in developing of a language learning service \href{http://langaroo.com}{Langaroo}.
 

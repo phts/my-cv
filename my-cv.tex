@@ -2,7 +2,6 @@
 \usepackage[cm]{fullpage}
 \usepackage[nomessages]{fp}
 \usepackage[utf8]{inputenc}
-\usepackage{datenumber}
 
 \usepackage{hyperref}
 \hypersetup{
@@ -48,13 +47,21 @@
         \case{12}{Dec}%
     \end{switch}%
 }
-\newcounter{dateone}%
-\newcounter{datetwo}%
+\newcounter{datediffyears}%
+\newcounter{datediffmonths}%
 \newcommand{\datediff}[4]{%
-    \setmydatenumber{dateone}{#1}{#2}{01}%
-    \setmydatenumber{datetwo}{#3}{#4}{01}%
-    \addtocounter{datetwo}{-\thedateone}%
-    \the\numexpr(\thedatetwo/365 + \thedatetwo/30)\relax\space months%
+    \setcounter{datediffyears}{#3}%
+    \setcounter{datediffmonths}{#4}%
+    \addtocounter{datediffmonths}{-#2 + 1}%
+    \addtocounter{datediffyears}{-#1}%
+    \ifnum\thedatediffmonths<0%
+        \setcounter{datediffmonths}{12 + \thedatediffmonths}%
+        \addtocounter{datediffyears}{-1}%
+        \addtocounter{datediffmonths}{\thedatediffyears * 12}%
+    \else%
+        \addtocounter{datediffmonths}{\thedatediffyears * 12}%
+    \fi
+    \the\numexpr\thedatediffmonths\relax\space months%
 }
 \newcommand{\difftoday}[2]{%
     \monthname{#2} #1--Present (\datediff{#1}{#2}{\the\year}{\the\month})%

@@ -1,8 +1,6 @@
-Highly motivated person with <span> <span>4+</span></span> years experience in a front end and back end development. Broad experience in working with web front end tools and frameworks (e.g jQuery, AngularJS) as well as with pure JavaScript and HTML/CSS in modern and old browsers and different platforms. Experienced in developing of full stack web-applications using Ruby and Java.
+Highly motivated person with <span> <span>5+</span></span> years experience in a front end and back end development. Broad experience in working with web front end tools and frameworks as well as with pure JavaScript and HTML/CSS in modern and old browsers and different platforms. Experienced in developing of full stack web-applications using Ruby and Java.
 
 ### Contacts:
-
--   Tel: [+375 29 2181503](tel:+375292181503)
 
 -   Tel: [+48 534 898 187](tel:+48534898187)
 
@@ -12,15 +10,23 @@ Highly motivated person with <span> <span>4+</span></span> years experience in a
 
 -   My legal name: Pilip Tsaryk
 
-Skills
-======
+Skill Overview
+==============
 
--   Ruby, Ruby on Rails, Python, Bash, Java, Android, SQL, PostgreSQL, UML
+-   <span> *Front end:*</span> HTML5, CSS3, JavaScript (incl. ES6+), TypeScript, Sass, Less
 
--   HTML/CSS, HTML5, CSS3, JavaScript, Ajax, Sass, ExtJS, jQuery
+-   <span> *Frameworks:*</span> Angular, React, jQuery
+
+-   <span> *Back end:*</span> Ruby, Python, Bash, Java, NodeJS, MySQL, PostgreSQL
 
 Experience
 ==========
+
+-   <span> **Front End Developer**</span>, Jul 2016–Present
+
+    Taking part in a friend’s startup as a front end developer. Responsible for a whole front end part.
+
+    -   <span> *Tools & technologies used:*</span> Angular 2.x, Material design, TypeScript, JavaScript, NodeJS, Webpack, Karma, Jasmine, Protractor, Git, Bitbucket
 
 -   <span> **JavaScript Developer**</span>, Nov 2015–Present
 
@@ -30,7 +36,7 @@ Experience
 
     -   <span> *Responsibilities:*</span> UI development, writing automated tests, manual testing, taking part in meetings, architecture and UI design, making mockups, reporting
 
-    -   <span> *Tools & technologies used:*</span> JavaScript, ECMAScript 6, AngularJS, Underscore, Gulp, Bower, Karma, Jasmine, Protractor, Git, Jira
+    -   <span> *Tools & technologies used:*</span> JavaScript, ES6, Angular 1.x, Bootstrap, Underscore, Webpack, Gulp, Bower, Karma, Jasmine, Protractor, Git, Jira
 
 -   <span> **JavaScript Developer**</span>, Apr 2014–Oct 2015
 
@@ -52,7 +58,7 @@ Experience
 
     -   <span> *Tools & technologies used:*</span> Java EE, Hibernate, Spring, Apache, H2 database, JUnit, Maven, Git
 
--   <span> **Ruby Developer**</span>, Oct 2012–Feb 2014
+-   <span> **Full Stack Developer**</span>, Oct 2012–Feb 2014
 
     Developing a firmware with Web GUI for network-attached storages based on Debian GNU/Linux.
 
@@ -74,7 +80,7 @@ Experience
 
     -   <span> *Tools & technologies used:*</span> Java SE, Java RMI, Swing, JAXB, Windows PowerShell, SVN
 
--   <span> **Ruby on Rails Developer**</span>, Feb 2011–Aug 2012
+-   <span> **Full Stack Developer**</span>, Feb 2011–Aug 2012
 
     Taking part in developing of a language learning service [Langaroo](http://langaroo.com).
 
@@ -95,5 +101,7 @@ Appendix
 -   <https://www.linkedin.com/in/tsarik>
 
 -   <https://github.com/phts>
+
+-   <https://stackoverflow.com/users/2462524/phts>
 
 

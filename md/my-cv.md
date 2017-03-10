@@ -24,9 +24,11 @@ Experience
 
 -   <span> **Front End Developer**</span>, Jul 2016–Present
 
-    Taking part in a friend’s startup as a front end developer. Responsible for a whole front end part.
+    Taking part in a friend’s startup as a front end developer. This is a social network-like application for people in a specific area of business and it works together with some hardware devices.
 
-    -   <span> *Tools & technologies used:*</span> Angular 2.x, Material design, TypeScript, JavaScript, NodeJS, Webpack, Karma, Jasmine, Protractor, Git, Bitbucket
+    Responsible for a whole front end part.
+
+    -   <span> *Tools & technologies used:*</span> Angular 2, Material design, TypeScript, Lodash, NodeJS, Webpack, Karma, Jasmine, Protractor, Git, Bitbucket, Jenkins, AWS
 
 -   <span> **JavaScript Developer**</span>, Nov 2015–Present
 
@@ -36,7 +38,7 @@ Experience
 
     -   <span> *Responsibilities:*</span> UI development, writing automated tests, manual testing, taking part in meetings, architecture and UI design, making mockups, reporting
 
-    -   <span> *Tools & technologies used:*</span> JavaScript, ES6, Angular 1.x, Bootstrap, Underscore, Webpack, Gulp, Bower, Karma, Jasmine, Protractor, Git, Jira
+    -   <span> *Tools & technologies used:*</span> JavaScript, ES6, AngularJS 1.5, Redux, Bootstrap, Lodash, Webpack, Gulp, Bower, Karma, Jasmine, Protractor, Git, Jira
 
 -   <span> **JavaScript Developer**</span>, Apr 2014–Oct 2015
 

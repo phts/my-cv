@@ -38,7 +38,7 @@ Experience
 
     -   <span> *Responsibilities:*</span> UI development, writing automated tests, manual testing, taking part in meetings, architecture and UI design, making mockups, reporting
 
-    -   <span> *Tools & technologies used:*</span> JavaScript, ES6, AngularJS 1.5, Redux, Bootstrap, Lodash, Webpack, Gulp, Bower, Karma, Jasmine, Protractor, Git, Jira
+    -   <span> *Tools & technologies used:*</span> JavaScript, ES6, AngularJS 1.5, Redux, Bootstrap, Lodash, Webpack, Gulp, Bower, Karma, Jasmine, Protractor, Git, Jira, TeamCity
 
 -   <span> **JavaScript Developer**</span>, Apr 2014–Oct 2015
 

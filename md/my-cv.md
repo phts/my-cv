@@ -1,4 +1,4 @@
-Highly motivated person with <span> <span>5+</span></span> years experience in a front end and back end development. Broad experience in working with web front end tools and frameworks as well as with pure JavaScript and HTML/CSS in modern and old browsers and different platforms. Experienced in developing of full stack web-applications using Ruby and Java.
+Highly motivated person with <span> <span>5+</span></span> years experience in a front-end and back-end development. Broad experience in working with web front-end tools and frameworks as well as with pure JavaScript and HTML/CSS in modern and old browsers and different platforms. Experienced in developing of full stack web-applications using Ruby and Java.
 
 ### Contacts:
 
@@ -13,22 +13,12 @@ Highly motivated person with <span> <span>5+</span></span> years experience in a
 Skill Overview
 ==============
 
--   <span> *Front end:*</span> HTML5, CSS3, JavaScript (incl. ES6+), TypeScript, Sass, Less
-
--   <span> *Frameworks:*</span> Angular, React, jQuery
+-   <span> *Front end:*</span> HTML5, CSS3, JavaScript (incl. ES6+), TypeScript, Sass, Less, Angular, React, jQuery
 
 -   <span> *Back end:*</span> Ruby, Python, Bash, Java, NodeJS, MySQL, PostgreSQL
 
 Experience
 ==========
-
--   <span> **Front End Developer**</span>, Jul 2016–Present
-
-    Taking part in a friend’s startup as a front end developer. This is a social network-like application for people in a specific area of business and it works together with some hardware devices.
-
-    Responsible for a whole front end part.
-
-    -   <span> *Tools & technologies used:*</span> Angular 2, Material design, TypeScript, Lodash, NodeJS, Webpack, Karma, Jasmine, Protractor, Git, Bitbucket, Jenkins, AWS
 
 -   <span> **JavaScript Developer**</span>, Nov 2015–Present
 
@@ -38,9 +28,17 @@ Experience
 
     -   <span> *Responsibilities:*</span> UI development, writing automated tests, manual testing, taking part in meetings, architecture and UI design, making mockups, reporting
 
-    -   <span> *Tools & technologies used:*</span> JavaScript, ES6, AngularJS 1.5, Redux, Bootstrap, Lodash, Webpack, Gulp, Bower, Karma, Jasmine, Protractor, Git, Jira, TeamCity
+    -   <span> *Tools & technologies used:*</span> JavaScript, ES6, AngularJS 1.6, Redux, Bootstrap, Lodash, Webpack, Gulp, Bower, Karma, Jasmine, Protractor, Git, Jira, TeamCity
 
--   <span> **JavaScript Developer**</span>, Apr 2014–Oct 2015
+-   <span> **Front-End Developer**</span>, Jul 2016–June 2017
+
+    Taking part in a friend’s startup as a front-end developer. This is a social network-like application for people in a specific area of business and it works together with some hardware devices.
+
+    Responsible for a whole front-end part.
+
+    -   <span> *Tools & technologies used:*</span> Angular 2, Material design, TypeScript, Lodash, NodeJS, Webpack, Karma, Jasmine, Protractor, Git, Bitbucket, Jenkins, AWS
+
+-   <span> **JavaScript Developer**</span>, Nov 2015–Present
 
     Developing a client application for monitoring remote servers including separate versions for desktop and mobile browsers.
 
@@ -68,7 +66,7 @@ Experience
 
     -   <span> *Company:*</span> SaM Solutions Gmbh, Minsk, Belarus
 
-    -   <span> *Responsibilities:*</span> Planning, UI and backend development, writing automated tests, manual testing, taking part in meetings, architecture and UI design, making mockups, collaborating with translators, reporting
+    -   <span> *Responsibilities:*</span> Planning, UI and back-end development, writing automated tests, manual testing, taking part in meetings, architecture and UI design, making mockups, collaborating with translators, reporting
 
     -   <span> *Tools & technologies used:*</span> Debian, Ruby, Sinatra, Rspec, Haml, HTML, CSS, JavaScript, jQuery, Dropbox SDK, Jasmine, Git, Jenkins, Transifex, Jira
 
@@ -86,7 +84,7 @@ Experience
 
     Taking part in developing of a language learning service [Langaroo](http://langaroo.com).
 
-    -   <span> *Responsibilities:*</span> UI and backend development, writing automated tests, manual testing
+    -   <span> *Responsibilities:*</span> UI and back-end development, writing automated tests, manual testing
 
     -   <span> *Tools & technologies used:*</span> Ruby, Ruby on Rails, PostgreSQL, ERB, SASS, Compass, HTML, CSS, JavaScript, jQuery, Git
 

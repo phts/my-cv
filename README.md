@@ -5,7 +5,7 @@ Available in [PDF](https://github.com/phts/my-cv/raw/master/pdf/Phil%20Tsarik%20
 
 Markdown is compiled using [pandoc](https://github.com/jgm/pandoc):
 
-    pandoc -o md/my-cv.md --to=markdown_github my-cv.tex
+    pandoc -o md/README.md --to=markdown_github my-cv.tex
 
 PDF compiler requires LaTeX engine to be installed. I used [MiKTeX](http://miktex.org/download) (on Windows) and [texlive](https://www.tug.org/texlive/) (on Debian):
 

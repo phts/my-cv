@@ -4,7 +4,7 @@
 command -v pandoc >/dev/null 2>&1
 if [ $? -eq 0 ]; then
     mkdir -p ./md
-    pandoc -o md/my-cv.md --to=markdown_github my-cv.tex
+    pandoc -o md/README.md --to=markdown_github my-cv.tex
 else
     echo "'pandoc' is not installed"
 fi

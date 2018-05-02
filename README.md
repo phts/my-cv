@@ -1,7 +1,7 @@
 # My CV
 
 Written in LaTeX.
-Available in [PDF](https://github.com/phts/my-cv/raw/master/pdf/Phil%20Tsarik%20-%20CV.pdf) and [Markdown](https://github.com/phts/my-cv/blob/master/md/my-cv.md).
+Available in [PDF](https://github.com/phts/my-cv/raw/master/pdf/Phil%20Tsarik%20-%20CV.pdf) and [Markdown](https://github.com/phts/my-cv/blob/master/md/README.md).
 
 Markdown is compiled using [pandoc](https://github.com/jgm/pandoc):
 

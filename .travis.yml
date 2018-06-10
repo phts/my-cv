@@ -1,5 +1,7 @@
 sudo: required
 language: generic
+branches:
+  only: master
 
 install:
   - sudo apt-get install texlive-latex-extra --no-install-recommends

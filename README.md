@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/phts/my-cv.svg)](https://travis-ci.org/phts/my-cv)
 
 Written in LaTeX.
-Compiled to [PDF](https://phts.github.io/my-cv/Phil%20Tsarik%20-%20CV.pdf).
+[Compiled to PDF](https://phts.github.io/my-cv/Phil%20Tsaryk%20-%20CV.pdf).
 
 ## Development
 

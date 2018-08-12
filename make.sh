@@ -7,7 +7,7 @@ mkdir -p "$DIST"
 command -v pdflatex >/dev/null 2>&1
 if [ $? -eq 0 ]; then
   pdflatex my-cv.tex
-  mv -f my-cv.pdf "$DIST/Phil Tsarik - CV.pdf"
+  mv -f my-cv.pdf "$DIST/Phil Tsaryk - CV.pdf"
 else
   echo "'pdflatex' is not installed"
 fi

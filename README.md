@@ -1,6 +1,6 @@
 # My CV
 
-![Last commit](https://img.shields.io/github/last-commit/phts/my-cv/master.svg)
+[![Last commit](https://img.shields.io/github/last-commit/phts/my-cv/master.svg)](https://github.com/phts/my-cv)
 [![Travis](https://img.shields.io/travis/phts/my-cv.svg)](https://travis-ci.org/phts/my-cv)
 
 Written in LaTeX.

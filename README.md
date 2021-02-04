@@ -1,7 +1,7 @@
 # My CV
 
 [![Last commit](https://img.shields.io/github/last-commit/phts/my-cv/master.svg)](https://github.com/phts/my-cv)
-[![Travis](https://img.shields.io/travis/phts/my-cv.svg)](https://travis-ci.org/phts/my-cv)
+[![Make and deploy](https://github.com/phts/my-cv/workflows/Make%20and%20deploy/badge.svg)](https://github.com/phts/my-cv/actions)
 
 Written in LaTeX.
 [Compiled to PDF](https://phts.github.io/my-cv/Phil%20Tsaryk%20-%20CV.pdf).

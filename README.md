@@ -12,7 +12,9 @@ PDF compiler requires LaTeX engine to be installed.
 I used [MiKTeX](http://miktex.org/download) (on Windows) and
 [texlive](https://www.tug.org/texlive/) (on Debian):
 
-    pdflatex my-cv.tex
+```bash
+pdflatex my-cv.tex
+```
 
-Online LaTeX preview and PDF compiler is avalable on
+Online LaTeX preview and PDF compiler is available on
 [writelatex.com](https://www.writelatex.com).

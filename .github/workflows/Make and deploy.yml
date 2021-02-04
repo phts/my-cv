@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install
-        run: apt-get install texlive-latex-extra --no-install-recommends
+        run: sudo apt-get install texlive-latex-extra --no-install-recommends
       - name: Make
         run: ./make.sh
       - name: Deploy

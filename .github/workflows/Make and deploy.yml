@@ -7,18 +7,18 @@ on:
 
 jobs:
   make-and-deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Install
         run: sudo apt-get install texlive-latex-extra --no-install-recommends
       - name: Make
         run: ./make.sh
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@3.7.1
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          BRANCH: gh-pages
-          CLEAN: true
-          FOLDER: dist
-          GIT_CONFIG_NAME: GitHub Actions
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          clean: true
+          folder: dist
+          git-config-name: GitHub Actions
+          token: ${{ secrets.GITHUB_TOKEN }}
